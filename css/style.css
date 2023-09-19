@@ -1,0 +1,201 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	font-size: 15px;
+	line-height: 1.4em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header css start*/
+.header{
+	width: 100%;
+	height: 100%;
+	/*padding: 40px 0px;*/
+	background: url("../images/bg.jpg") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 15px 0px 0px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover, .header .navbar .navbar-nav .nav-item .nav-link:focus{
+	color: #ff9900;
+	background: url("../images/devider.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .navbar .navbar-nav .nav-item .nav-link.active{
+	background: url("../images/devider.png") bottom center no-repeat;
+	background-size: auto;
+}
+.inner-banner{
+	width: 100%;
+	padding: 30px;
+}
+.inner-banner .banner-feature{
+	width: 100%;
+	padding: 20px;
+}
+.inner-banner .banner-feature h4{
+	color: white;
+    font-size: 55px;
+    font-weight: 300;
+    color: red;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0px;
+}
+.inner-banner .banner-feature span{
+    font-weight: 600;
+    font-size: 70px;
+    color: #ff4d4d;
+}
+.inner-banner .banner-feature p{
+    font-size: 20px;
+    color: #b3b3b3;
+    line-height: 1.4em;
+    text-transform: lowercase;
+    margin: 40px 0px 40px 15px;
+    text-align: justify;
+}
+.inner-banner .banner-feature .inner-button{
+	text-align: center;
+}
+.inner-banner .banner-feature .inner-button .btn{
+	width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid red;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    background: #66c2ff;
+    color: #666600;
+    font-weight: 500;
+    margin: 30px;
+}
+.inner-banner .banner-feature .inner-button .btn:hover{
+	background: transparent;
+	color: white;
+	border: 1px solid #66c2ff;
+}
+/*header css end*/
+
+/*choose-section css start start*/
+.choose-section{
+	width: 100%;
+    padding: 40px 0px 40px;
+}
+.choose-section .choose-head{
+ 	text-align: center;
+ 	margin-bottom: 20px;
+}
+.choose-section .choose-head h3{
+	font-size: 35px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+.choose-section .inner-choose{
+	text-align: center;
+}
+.choose-section .inner-choose .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 1.4em;
+	border: 1px solid #ff9999;
+	border-radius: 100%;
+	margin: 10px auto 20px;
+
+}
+.choose-section .inner-choose .icon .fa{
+	font-size: 35px;
+	margin-top: 25px;
+}
+.choose-section .inner-choose h1{
+	text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.choose-section .inner-choose p{
+    font-size: 14px;
+    line-height: 1.4em;
+    text-align: justify;
+    text-transform: lowercase;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.choose-section .inner-choose .btn{
+	width: 90px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid red;
+    border-radius: 2px;
+    background: #66c2ff;
+    color: #666600;
+}
+.choose-section .inner-choose .btn:hover{
+	background: transparent;
+	color: black;
+	border: 1px solid #66c2ff;
+}
+
+/*choose-section css start end*/
+/*footer css start*/
+.footer{
+	width: 100%;
+	background: #66b3ff;
+}
+.footer .footer-head{
+	text-align: center;
+	margin: 30px;
+}
+.footer .footer-head h2{
+	font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #006600;
+}
+.footer .footer-left{
+	width: 100%;
+	border-right: 1px solid red;
+}
+
+.footer .footer-right{
+	width: 100%;
+	border-ligt: 1px solid red;
+}
+.footer .footer-logo{
+	width: 80px;
+	height: 80px;
+	border: 1px solid whitesmoke;
+	border-radius: 100%;
+}
+.footer .footer-01{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.footer .footer-01 .col-lg-9 p{
+    font-size: 17px;
+    padding-right: 5px;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px 23px 25px 0px;
+}
+}
+/*footer css end*/
